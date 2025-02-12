@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [ "get", "post", "put", "delete" ]
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "in",
+      "name": "productsCollection",
+      "databaseName": "ECommerceDB",
+      "collectionName": "Products",
+      "connectionStringSetting": "CosmosDBConnectionString"
+    }
+  ]
+}
