@@ -1,0 +1,11 @@
+# Azure Functions Worker
+FUNCTIONS_WORKER_RUNTIME=node
+
+# Local Storage (for local execution)
+AzureWebJobsStorage=UseDevelopmentStorage=true
+
+# Cosmos DB Connection
+COSMOS_DB_ENDPOINT=your-cosmos-db-endpoint
+COSMOS_DB_KEY=your-cosmos-db-key
+COSMOS_DB_DATABASE=ECommerceDB
+COSMOS_DB_CONTAINER=Products
